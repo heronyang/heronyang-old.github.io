@@ -36,6 +36,8 @@ i {
 h1 {
     font-size: 1.2em;
     color: #fff;
+    padding-top: 0.4em;
+    padding-left: 0.5em;
 }
 
 .clear {
@@ -97,7 +99,7 @@ h1 {
 }
 
 .header .nav ul li a {
-    color: #FFF;
+    color: #666;
     text-decoration: none;
     font-size: 0.95em;
     font-size: 1.5vw;
@@ -154,7 +156,7 @@ nav li {
 nav li a {
     display: block;
     padding: 1em;
-    background: #ffd71e;
+    background: #ffe762;
     /*opacity: 0.9;*/
     color: #020A47;
     text-align: center;
@@ -201,7 +203,7 @@ nav li ul li a {
 .top-bar {
     display: block;
     background: #020A47;
-    height: 6em;
+    height: 7em;
 }
 
 .top-bar > * {
@@ -226,9 +228,10 @@ nav li ul li a {
 }
 
 .search {
-    margin-top: 1.5em;
+    margin-top: 3em;
     margin-right: 2em;
     float: right;
+    color: #ffe762;
 }
 
 .search-input, .search-button, .menu-button {
@@ -240,6 +243,10 @@ nav li ul li a {
     opacity: 0.8;
     border-radius: 0.3em;
     width: 8em;
+    background-color: transparent; 
+    border-style: solid; 
+    border-width: 0px 0px 2px 0px; 
+    border-color: yellow;
 }
 
 .search-button, .menu-button {
@@ -253,7 +260,7 @@ nav li ul li a {
 }
 
 .channel {
-    margin-top: 2em;
+    margin-top: 3em;
     margin-right: 0.5em;
     float: right;
 }
@@ -261,15 +268,17 @@ nav li ul li a {
 .channel i {
     font-size: 1.8em;
     margin: 0 0.1em;
-    opacity: 0.7;
+    color: #0f0;
     cursor: pointer;
+    color: #ffe762;
+    opacity: 0.8;
 }
 
 .logo img{
     width: 5.5em;
     height: 5.5em;
-    margin-top: 0.3em;
-    margin-left: 0.3em;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
 }
 
 /* Slide */
@@ -278,8 +287,7 @@ nav li ul li a {
 }
 
 .image-crop {
-    display: inline-block;
-    height: 60em;
+    height: 30em;
     width: 100%;
     overflow: hidden;
 }
@@ -304,7 +312,7 @@ nav li ul li a {
 .arrow {
     position: absolute;
     font-size: 5em;
-    margin-top: 5em;
+    margin-top: 3.5em;
 }
 
 .arrow-right {
@@ -327,11 +335,12 @@ nav li ul li a {
 
 .image-description {
     color: #FFF;
-    margin-top: 45em;
     width: 40%;
-    background-color: #AC9800;
+    background-color: #cbcbcb;
     opacity: 0.9;
     padding: 2em;
+    margin: auto;
+    margin-top: 18em;
 }
 
 .image-description h3 {
@@ -363,6 +372,10 @@ nav li ul li a {
 }
 
 /* Content */
+.content-img {
+    width:100%;
+    padding: 1em;
+}
 .content-container {
     height: 100%;
     display: inline-block;
@@ -377,6 +390,11 @@ nav li ul li a {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 
 }
+
+.content-container a {
+    color: #704ed4;
+}
+
 .column-2 {
     width: 50%;
     line-height: 150%;
@@ -398,7 +416,7 @@ nav li ul li a {
 }
 
 .column-content {
-    padding: 6em 2em;
+    padding: 3em 2em;
 }
 
 .news {
@@ -432,14 +450,14 @@ nav li ul li a {
 }
 
 .content-container .column h2 {
-    color: #ffd71e;
+    color: #ffe762;
 }
 
 /* Report Crime */
 .report-crime-container {
     width: 100%;
     display: inline-block;
-    background-color: #FFD800;
+    background-color: #ffe762;
     padding: 50px 0px;
 }
 .report-crime-container .important {
@@ -479,7 +497,7 @@ footer p a {
 /* Multi Screen Size */
 @media screen and (max-width: 1200px) {
     html {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .image-crop img {
@@ -495,10 +513,26 @@ footer p a {
         top: 120em;
     }
 }
+
+@media screen and (max-width: 900px) {
+
+    nav li a {
+        height: 4em;
+    }
+
+    nav li li a {
+        height: 100%;
+    }
+
+    nav li ul {
+        top: 6em;
+    }
+
+}
 /* tablat */
 @media screen and (max-width: 768px) {
     html {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .headline h1 {
@@ -563,7 +597,7 @@ footer p a {
 /* mobile */
 @media screen and (max-width: 500px) {
     html {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     nav li {
@@ -578,8 +612,30 @@ footer p a {
         display: none;
     }
 
+    nav li a {
+        height: 2em;
+    }
+
+    nav li li a {
+        height: 100%;
+    }
+
+    nav li ul {
+        top: 3em;
+    }
+
+
     nav ul li:first-child {
         border-top: 1px solid #000;
+    }
+
+    .logo img {
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
+    .header h1 {
+        padding-left: 0em;
     }
 
     .image-crop img {
@@ -588,11 +644,11 @@ footer p a {
     }
 
     .image-crop img.img2 {
-        top: 30em;
+        top: 20em;
     }
 
     .image-crop img.img3 {
-        top: 60em;
+        top: 40em;
     }
 
 
@@ -609,7 +665,7 @@ footer p a {
     .headline h1 {
         margin-top: 15px;
         color: #FFF;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .header {
@@ -634,8 +690,9 @@ footer p a {
     }
 
     .image-description {
-        margin-top: 15em;
+        margin-top: 22em;
         height: 100px;
+        font-size: 0.7em;
     }
 
     .arrow {
@@ -655,6 +712,11 @@ footer p a {
 
     .channel {
         display: none;
+    }
+
+    .search i {
+        font-size: 0.8em;
+        top: 0px;
     }
 
     .search {
