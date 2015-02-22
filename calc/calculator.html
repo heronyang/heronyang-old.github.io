@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./css/calculator.css">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Arimo'>
+  </head>
+  <body>
+
+    <script src="js/calculator.js"></script>
+
+    <div id="containter">
+      <div id="screen-container">
+        <p id="screen">0</p>
+      </div>
+      <div id="keyboard-container">
+        <table id="keyboard">
+          <tr>
+            <td><button onclick="pressDigit(7);" class="btn-digit">7</button></td>
+            <td><button onclick="pressDigit(8);" class="btn-digit">8</button></td>
+            <td><button onclick="pressDigit(9);" class="btn-digit">9</button></td>
+            <td><button onclick="pressOp(OPS.PLUS);" class="btn-op">&plus;</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="pressDigit(4);" class="btn-digit">4</button></td>
+            <td><button onclick="pressDigit(5);" class="btn-digit">5</button></td>
+            <td><button onclick="pressDigit(6);" class="btn-digit">6</button></td>
+            <td><button onclick="pressOp(OPS.MINUS);" class="btn-op">&minus;</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="pressDigit(1);" class="btn-digit">1</button></td>
+            <td><button onclick="pressDigit(2);" class="btn-digit">2</button></td>
+            <td><button onclick="pressDigit(3);" class="btn-digit">3</button></td>
+            <td><button onclick="pressOp(OPS.TIMES);" class="btn-op">&times;</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="pressClear();" class="btn-clear">c</button></td>
+            <td><button onclick="pressDigit(0);" class="btn-digit">0</button></td>
+            <td><button onclick="pressOp(OPS.EQUAL);" class="btn-op">=</button></td>
+            <td><button onclick="pressOp(OPS.DIVIDE);" class="btn-op">&divide;</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  </body>
+</html>
