@@ -1,0 +1,55 @@
+html {
+  color: white;
+  background-color: black;
+}
+
+div.content {
+  width: 500px;
+  height: 800px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: auto;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  line-height: 150%;
+}
+
+#focus_read_controller {
+  position: fixed;
+  right: 10%;
+  top: 10%;
+}
+
+h1 {
+  margin-top: 1em;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+p {
+  margin-top: 1em;
+}
+
+.read {
+  color: #aaa;
+}
+
+.unread {
+  color: #333;
+}
+
+.current {
+  color: red;
+}
+
+input[type=range][orient=vertical] {
+  writing-mode: bt-lr;
+  /* IE */
+  
+  -webkit-appearance: slider-vertical;
+  /* WebKit */
+  
+  width: 8px;
+  height: 175px;
+  padding: 0 5px;
+}
