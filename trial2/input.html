@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <style>
+    input[type=range][orient=vertical] {
+      writing-mode: bt-lr; /* IE */
+      -webkit-appearance: slider-vertical; /* WebKit */
+      width: 8px;
+      height: 175px;
+      padding: 0 5px;
+    }
+    .focus_read_controller_container {
+    	float: right;
+    }
+    .focus_read_controller_container * {
+      clear: both;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="focus_read_controller_container">
+    <input id="focus_read_controller" type="range" orient="vertical" min="150" max="900" value="150" step="1" />
+    <label for="focus_read_controller">150 wpm</label>
+  </div>
+</body>
+
+</html>
