@@ -1,0 +1,42 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+b2body.userData.element	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^	b2body.userData = {element: element};$/;"	p	language:JavaScript
+b2body.userData.element	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^	b2body.userData = {element: element};$/;"	p	language:JavaScript
+bodies	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var bodies, elements, text;$/;"	v	language:JavaScript
+canvas	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var canvas;$/;"	v	language:JavaScript
+createBall	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function createBall( x, y ) {$/;"	f	language:JavaScript
+createBox	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function createBox(world, x, y, width, height, fixed) {$/;"	f	language:JavaScript
+createInstructions	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function createInstructions() {$/;"	f	language:JavaScript
+createMode	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var createMode = false;$/;"	v	language:JavaScript
+delta	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var delta = [ 0, 0 ];$/;"	v	language:JavaScript
+destroyMode	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var destroyMode = false;$/;"	v	language:JavaScript
+getBodyAtMouse	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function getBodyAtMouse() {$/;"	f	language:JavaScript
+getBrowserDimensions	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function getBrowserDimensions() {$/;"	f	language:JavaScript
+gravity.x	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var gravity = { x: 0, y: 1 };$/;"	p	language:JavaScript
+gravity.y	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var gravity = { x: 0, y: 1 };$/;"	p	language:JavaScript
+init	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function init() {$/;"	f	language:JavaScript
+isMouseDown	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var isMouseDown = false;$/;"	v	language:JavaScript
+loop	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function loop() {$/;"	f	language:JavaScript
+mouse.x	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var mouse = { x: 0, y: 0 };$/;"	p	language:JavaScript
+mouse.y	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var mouse = { x: 0, y: 0 };$/;"	p	language:JavaScript
+mouseDrag	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function mouseDrag()$/;"	f	language:JavaScript
+mouseJoint	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var mouseJoint;$/;"	v	language:JavaScript
+onDocumentDoubleClick	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onDocumentDoubleClick() {$/;"	f	language:JavaScript
+onDocumentMouseDown	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onDocumentMouseDown() {$/;"	f	language:JavaScript
+onDocumentMouseMove	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onDocumentMouseMove( event ) {$/;"	f	language:JavaScript
+onDocumentMouseUp	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onDocumentMouseUp() {$/;"	f	language:JavaScript
+onDocumentTouchEnd	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onDocumentTouchEnd( event ) {$/;"	f	language:JavaScript
+onDocumentTouchMove	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onDocumentTouchMove( event ) {$/;"	f	language:JavaScript
+onDocumentTouchStart	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onDocumentTouchStart( event ) {$/;"	f	language:JavaScript
+onWindowDeviceOrientation	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function onWindowDeviceOrientation( event ) {$/;"	f	language:JavaScript
+PI2	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var PI2 = Math.PI * 2;$/;"	v	language:JavaScript
+play	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function play() {$/;"	f	language:JavaScript
+reset	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function reset() {$/;"	f	language:JavaScript
+setWalls	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^function setWalls() {$/;"	f	language:JavaScript
+stage	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var stage = [ window.screenX, window.screenY, window.innerWidth, window.innerHeight ];$/;"	v	language:JavaScript
+theme	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var theme;$/;"	v	language:JavaScript
+themes	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var themes = [ [ "#10222B", "#95AB63", "#BDD684", "#E2F0D6", "#F6FFE0" ],$/;"	v	language:JavaScript
+timeOfLastTouch	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var timeOfLastTouch = 0;$/;"	v	language:JavaScript
+walls	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var walls = [];$/;"	v	language:JavaScript
+wallsSetted	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var wallsSetted = false;$/;"	v	language:JavaScript
+wall_thickness	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var wall_thickness = 200;$/;"	v	language:JavaScript
+worldAABB	/Users/heron/Program/Websites/heronyang.github.io/season/js/Main.js	/^var worldAABB, world, iterations = 1, timeStep = 1 \/ 15;$/;"	v	language:JavaScript
