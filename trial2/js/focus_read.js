@@ -156,15 +156,13 @@ function controller_setup() {
         }
     });
 
-    document.addEventListener('touchstart', function(e) {
-        e.preventDefault();
+    $('body').on("click touchstart", function() {
         startReading();
-    }, false);
+    });
 
-    document.addEventListener('touchend', function(e) {
-        e.preventDefault();
+    $('body').on("click touchstop", function() {
         stopReading();
-    }, false);
+    });
 }
 
 function startReading() {
