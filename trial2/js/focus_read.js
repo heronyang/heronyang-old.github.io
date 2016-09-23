@@ -160,7 +160,13 @@ function controller_setup() {
         startReading();
     });
 
-    $('body').on("click touchstop", function() {
+    $('body').on("click touchend", function() {
+        stopReading();
+    });
+    $('body').on("click touchleave", function() {
+        stopReading();
+    });
+    $('body').on("click touchcancel", function() {
         stopReading();
     });
 }
