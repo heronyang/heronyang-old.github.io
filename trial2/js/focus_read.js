@@ -155,6 +155,16 @@ function controller_setup() {
             stopReading();
         }
     });
+
+    document.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        startReading();
+    }, false);
+
+    document.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        stopReading();
+    }, false);
 }
 
 function startReading() {
