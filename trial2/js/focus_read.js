@@ -132,7 +132,7 @@ function isLastWord(p, w) {
 //});
 
 /* Controller events */
-var current_wpm = 300;
+var current_wpm = 500;
 var is_start = false;
 
 function controller_setup() {
